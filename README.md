@@ -29,4 +29,5 @@ Steps:
 6. Run schedule_manager.py to start the schedule where the data will be fetched from the platforms. If you want to change the time at which the data is fetched, change lines 13 and 17 in schedule_manager.py accordingly
 7. Run flask_graphs.py to display the data in real-time graphs on the local url of your computer: http://127.0.0.1:5000 or on the url of your WiFi network: http://192.168.1.43:5000
 
+![IoT Platform](https://github.com/Fivos-Garpo/Integrating-Weather-and-Sensor-Data-with-Flask-and-SQLite-for-Smart-Office-Air-Conditioning/assets/101002242/be64f686-87dd-40b7-ac11-b7f918120f54)
 
