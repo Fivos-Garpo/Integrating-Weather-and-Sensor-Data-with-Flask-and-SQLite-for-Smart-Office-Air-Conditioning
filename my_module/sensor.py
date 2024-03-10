@@ -18,8 +18,8 @@ def sensor():
 
     if yodi_api_key:
         """Measurement ID and Device ID of the sensor from the Yodiwo Platform"""
-        measurement_id = '12804'
-        device_id = '3474'
+        measurement_id = 'Measurement ID'
+        device_id = 'Device ID'
 
         # call the function that brings us the sensor data via api
         yodiwo_data = yodiwo_api.yodiwo_api(yodi_api_key, measurement_id, device_id, time_in_sec)
