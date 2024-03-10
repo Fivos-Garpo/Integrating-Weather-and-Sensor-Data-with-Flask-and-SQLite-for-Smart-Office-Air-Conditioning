@@ -1,4 +1,5 @@
 Description: 
+
 This project aims to create a smart office air conditioning system by integrating weather data from the OpenWeatherMap API and sensor data from the Yodiwo platform into a Flask web application. 
 The data is stored in a SQLite database and used to optimize the office air conditioner's schedule for maximum efficiency. Key features include:
 
@@ -16,7 +17,9 @@ Technologies Used:
 •	OpenWeatherMap API
 •	Yodiwo API
 
-Purpose: The purpose of this project is to demonstrate the integration of external data sources with a web application to create a smart office air conditioning system. 
+Purpose: 
+
+The purpose of this project is to demonstrate the integration of external data sources with a web application to create a smart office air conditioning system. 
 By dynamically adjusting the air conditioner's schedule based on real-time weather and sensor data, the project showcases how technology can be used to optimize energy consumption and improve comfort in office environments. 
 This project can serve as a blueprint for building smart HVAC systems that adapt to changing environmental conditions and user preferences.
 
