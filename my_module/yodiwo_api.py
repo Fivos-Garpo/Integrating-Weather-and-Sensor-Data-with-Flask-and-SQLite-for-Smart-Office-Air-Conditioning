@@ -77,3 +77,8 @@ def yodiwo_api(yodi_api_key, measurement_id, device_id, time_in_sec):
         # Wait for 30 minutes
         time.sleep(1800)
         main()
+    except AttributeError as attribute_error:
+        print("AttributeError:", attribute_error)
+        # Wait for 30 minutes
+        time.sleep(1800)
+        main()
